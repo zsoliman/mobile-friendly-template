@@ -1,7 +1,9 @@
 const Footer = () => {
     return (
         <div>
-            <div></div>
+            <div className="footer">
+                <p>Resize the browser window to see how the content respond to the resizing.</p>
+            </div>
         </div>
     )
 }

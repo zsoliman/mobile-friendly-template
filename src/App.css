@@ -1,30 +1,41 @@
-.App {
-  text-align: center;
-}
-
 * {
   box-sizing: border-box;
-}
-
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-[class*="col-"] {
-  float: left;
-  padding: 15px;
 }
 
 html {
   font-family: "Lucida Sans", sans-serif;
 }
 
+.App {
+  text-align: center;
+}
+
+.aside {
+  background-color: #33b5e5;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.footer {
+  background-color: #0099cc;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
 .header {
   background-color: #9933cc;
   color: #ffffff;
   padding: 15px;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
 
 .menu ul {
@@ -45,26 +56,10 @@ html {
   background-color: #0099cc;
 }
 
-.aside {
-  background-color: #33b5e5;
-  padding: 15px;
-  color: #ffffff;
-  text-align: center;
-  font-size: 14px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-}
-
-.footer {
-  background-color: #0099cc;
-  color: #ffffff;
-  text-align: center;
-  font-size: 12px;
-  padding: 15px;
-}
-
-img {
-  width: 100%;
-  height: auto;
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 video {
@@ -75,6 +70,8 @@ video {
 /* For mobile phones: */
 [class*="col-"] {
   width: 100%;
+  float: left;
+  padding: 15px;
 }
 
 @media only screen and (min-width: 600px) {

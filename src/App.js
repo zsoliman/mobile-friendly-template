@@ -1,6 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import Landing from './components/Landing';
+import Menu from './components/Menu';
 import Content from './components/Content';
 import Footer from './components/Footer';
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Landing />
+      <Menu />
       <Content />
       <Footer />
     </div>
